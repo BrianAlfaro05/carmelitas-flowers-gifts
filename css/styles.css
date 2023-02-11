@@ -1,9 +1,9 @@
 body{
-    width: 100%;
-    font-size:16px;
-    color:black;
+    width: auto;
+    font-size: 16px;
+    color: black;
     background-color: rgb(235, 255, 225);
-    font-family:'Alegreya', serif;
+    font-family: 'Alegreya', serif;
 }
 
 #header-nav{
@@ -16,11 +16,13 @@ body{
 .navbar-brand{
     padding-top: 20px;
     margin: 0;
+    word-break: break-all;
 }
 
 .navbar-header{
     text-align: center;
     justify-content: center;
+    word-break: break-all;
 }
 
 .navbar-header button.navbar-toggle {
@@ -36,6 +38,8 @@ body{
     text-decoration: none;
     text-align: center;
     padding:auto;
+    overflow-wrap: break-word;
+    word-break: break-all;
 }
 
 .nav{
@@ -164,49 +168,52 @@ figcaption{
 
 /******************************************* SMALL SCREENS ******************************/
 
-@media (min-width: 767px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px){
     .carousel-inner img{
         margin: 0px auto;
         width: 100%;
         height: 600px;
     }
 
-    .navbar-brand{
-        font-size: 79%;
+    .navbar-brand a{
+        font-size: 6.1vw;
         margin-bottom: 0px;
     }
 }
 
 
 /******************************************* EXTRA SMALL SCREENS ******************************/
-@media (max-width: 767px) { 
+
+@media (max-width: 766px) {
+    .navbar-brand a{
+        font-size: 5.8vw;
+        margin-bottom: 0px;
+    }
 
     .carousel-inner img{
         margin: 0px auto;
         width: 100%;
-        height: 390px;
+        height: 300px;
     }
-
-    .navbar-brand{
-        font-size: 9.5px;
-        margin-bottom: 0px;
+    
+    .navbar-header button.navbar-toggle {
+        clear: both;
+        margin-top: -5px;
     }
 
     .nav{
         font-size:1.6em;
     }
 
+    .d-flex{
+        flex-wrap: wrap;
+    }
+
+    .d-flex section{
+        width: 50%;
+    }
+
     .gallery > div {
         columns: 2;
     }
-
-    .arrow{
-        width: 19px;
-    }
-
-    .navbar-header button.navbar-toggle {
-        clear: both;
-        margin-top: -10px;
-      }
-
 }
