@@ -129,6 +129,7 @@ figcaption{
     width: 80%;
     margin: auto;
     margin-bottom: 50px;
+    padding: 5px;
 }
   
 .gallery > div {
@@ -151,15 +152,11 @@ figcaption{
 
 header{
     font-family: 'Dancing Script', cursive;    ;
-    font-size: 5vw;
-    margin-top: 25%;
+    font-size: 4.8vw;
+    margin-top: 24%;
     color:rgb(108, 43, 43);
     text-align: center;
     font-weight: 100%;
-}
-
-#with-background{
-    background-color: rgba(255, 255, 255, 0.057);
 }
 
 #p_bouquets img{
@@ -182,6 +179,7 @@ header{
         margin-bottom: 0px;
     }
 
+    
 
 }
 
@@ -195,17 +193,21 @@ header{
     }
 
     .navbar-brand a{
-        font-size: 6.1vw;
+        font-size: 5.9vw;
         margin-bottom: 0px;
+    }
+
+    #p_bouquets img{
+        height: 500px;
     }
 }
 
 
 /******************************************* EXTRA SMALL SCREENS ******************************/
 
-@media (max-width: 766px) {
+@media (max-width: 767px) {
     .navbar-brand a{
-        font-size: 5.9vw;
+        font-size: 5.87vw;
         margin-bottom: 0px;
     }
 
@@ -234,5 +236,9 @@ header{
 
     .gallery > div {
         columns: 2;
+    }
+
+    #p_bouquets img{
+        height: 400px;
     }
 }
