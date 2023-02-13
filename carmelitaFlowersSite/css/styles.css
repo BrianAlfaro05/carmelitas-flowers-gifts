@@ -327,11 +327,11 @@ header{
 
     #valentines{
         font-size: 7.2vw;
-        text-shadow: 1.2px 0px 1px rgb(83, 0, 70);
+        text-shadow: none;
     }
 
     header{
-        font-size: 6vw;
+        font-size: 7.2vw;
         line-height: 45px;
     }
 
