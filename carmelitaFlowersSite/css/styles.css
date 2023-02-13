@@ -332,19 +332,19 @@ header{
 
     header{
         font-size: 6vw;
-        line-height: 50px;
+        line-height: 45px;
     }
 
     #p_bouquets img{
-        height: 325px;
+        height: 280px;
     }
 
     #plush img{
-        height: 325px;
+        height: 280px;
     }
 
     #gifts img{
-        height: 325px;
+        height: 280px;
     }
 
 }
