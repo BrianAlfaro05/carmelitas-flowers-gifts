@@ -44,8 +44,10 @@ body{
 
 .nav{
     font-size: 1.9em;
-    font-family:'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-family: 'Merriweather', serif;
     margin-top: 0;
+    justify-content: center;
 }
 
 #navbar-toggle{
@@ -70,14 +72,30 @@ body{
 }
 
 .nav-link:hover{
-    background-color: rgb(188, 246, 87);
+    color: greenyellow;
 }
 
 .carousel-inner img{
     margin: 10px auto;
-    width: 84%;
-    height: 745px;
+    width: 80%;
+    height: 710px;
     box-shadow: 0px 4px 8px rgba(0.0,0,0.1);
+}
+
+#First_slide{
+    width: 73%;
+}
+
+#Second_slide{
+    width: 70%;
+}
+
+#Third_slide{
+    width: 73%;
+}
+
+#Fifth_slide{
+    width: 66%;
 }
 
 h1{
@@ -128,15 +146,15 @@ figcaption{
     margin-left: 0;
     font-weight: 400;
     color: black;
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
 }
 
 a > figcaption:hover{
-    text-decoration: none;
     color: rgb(255, 0, 234);
-}
-
-a > figcaption:active{
-    text-decoration: none;
 }
 
 #form-header{
