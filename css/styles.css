@@ -245,6 +245,22 @@ header{
         height: 666px;
     }
 
+    #First_slide{
+        width: 100%;
+    }
+    
+    #Second_slide{
+        width: 100%;
+    }
+    
+    #Third_slide{
+        width: 100%;
+    }
+    
+    #Fifth_slide{
+        width: 100%;
+    }
+
     .navbar-brand{
         font-size: 100%;
         margin-bottom: 0px;
@@ -283,9 +299,29 @@ header{
         height: 600px;
     }
 
+    #First_slide{
+        width: 100%;
+    }
+    
+    #Second_slide{
+        width: 100%;
+    }
+    
+    #Third_slide{
+        width: 100%;
+    }
+    
+    #Fifth_slide{
+        width: 100%;
+    }
+
     .navbar-brand a{
         font-size: 5.9vw;
         margin-bottom: 0px;
+    }
+
+    .nav{
+        font-size:1.46em;
     }
 
     #valentines{
@@ -317,7 +353,7 @@ header{
 
 @media (max-width: 767px) {
     .navbar-brand a{
-        font-size: 5.87vw;
+        font-size: 6.4vw;
         margin-bottom: 0px;
     }
 
@@ -326,6 +362,22 @@ header{
         width: 100%;
         height: 280px;
     }
+
+    #First_slide{
+        width: 100%;
+    }
+    
+    #Second_slide{
+        width: 100%;
+    }
+    
+    #Third_slide{
+        width: 100%;
+    }
+    
+    #Fifth_slide{
+        width: 100%;
+    }
     
     .navbar-header button.navbar-toggle {
         clear: both;
@@ -333,7 +385,7 @@ header{
     }
 
     .nav{
-        font-size:1.6em;
+        font-size:1em;
     }
 
     .d-flex{
