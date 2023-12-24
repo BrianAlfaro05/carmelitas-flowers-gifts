@@ -103,6 +103,14 @@ span{
     font-size: 1.2em;
 }
 
+.image-sz{
+    width:  300px;
+    height: 420px;
+    object-fit: cover;
+    margin: 20px auto 20px;
+    display: block;
+}
+
 .panel-footer{
     background-color: rgb(27, 45, 2);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -218,6 +226,11 @@ header{
 #message{
     justify-content: center;
     height: 206px;
+}
+
+#flowerShop img:hover {
+    transition: 0.25s;
+    transform: scale(1.1);
 }
 
 /******************************************* MEDIUM SCREENS ******************************/
