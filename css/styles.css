@@ -398,8 +398,12 @@ header{
     }
 
     #valentines{
-        font-size: 4.8vw;
+        font-size: 8.8vw;
         text-shadow: none;
+    }
+    
+    h3{
+        font-size: 4.9vw;
     }
 
     header{
@@ -421,8 +425,8 @@ header{
     }
 
     .image-sz-2{
-        width:  300px;
-        height: 400px;
+        width:  200px;
+        height: 300px;
     }
 
 }
