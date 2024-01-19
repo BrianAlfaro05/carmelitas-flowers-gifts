@@ -111,6 +111,13 @@ span{
     margin: 20px auto 20px;
     display: block;
 }
+.image-sz-2{
+    width:  455px;
+    height: 500px;
+    object-fit: cover;
+    margin: 10px auto 10px;
+    display: block;
+}
 
 .panel-footer{
     background-color: rgb(27, 45, 2);
@@ -180,17 +187,6 @@ a > figcaption:hover{
     transform: scale(1.1);
 }
 
-#valentines{
-    text-align: center;
-    font-size: 6.6em;
-    color: rgb(218, 18, 0);
-    font-family:'Bree Serif', serif;
-    text-transform: capitalize;
-    margin: 50px 0px 75px 0px;
-    text-shadow: 2px 0px 8px rgb(83, 0, 70);
-    -webkit-text-stroke: 0.3px #000000da;
-    text-decoration: none;
-}
 
 .rounded{
     border-top: 4px solid #000000;
@@ -286,6 +282,11 @@ header{
         height: 500px;
     }
 
+    .image-sz-2{
+        width:  350px;
+        height: 420px;
+    }
+
 }
 
 /******************************************* SMALL SCREENS ******************************/
@@ -335,7 +336,11 @@ header{
     .image-sz{
         width:  200px;
         height: 320px;
-        
+    }
+    
+    .image-sz-2{
+        width:  300px;
+        height: 420px;
     }
 
     #p_bouquets img{
@@ -393,7 +398,7 @@ header{
     }
 
     #valentines{
-        font-size: 7.2vw;
+        font-size: 4.8vw;
         text-shadow: none;
     }
 
@@ -413,6 +418,11 @@ header{
 
     #gifts img{
         height: 170px;
+    }
+
+    .image-sz-2{
+        width:  340px;
+        height: 420px;
     }
 
 }
